@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+<style>
+    /* # == id
+       . == class
+       : == seudo-classe
+       :: == pseudo-elemento
+       > == children
+    */
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+a::after{
+    content: '[link]';
+    color: black;
+}
+</style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.clubevapor.com/">clube do vapor</a></li>
+        <li><a href="https://www.aliexpress.com/">sei la</a></li>
+        <li><a href="https://m.youtube.com/?hl=pt">you tube</a></li>
+    </ul>
+
+</body>
+</html>
