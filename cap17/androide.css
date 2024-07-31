@@ -10,21 +10,22 @@
 :root{
     --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: "Bebas Neue", sans-serif;
-    ---fonte-android: 'Android', 'cursive';
+    --fonte-android: 'Android', 'cursive';
 
 }
 body{
-    text-align: justify;
+    text-align: center;
     background-color: #f7ff8263;
     color: #002807;
     font-family: var(--fonte-padrao);
 
 }
+/* cabeçalho */
 header{
     font-family: var(--fonte-destaque);
 }
 nav#menuprincipal{
-    background: linear-gradient(to bottom, #69E000, #01e0449e);
+    background: linear-gradient(to bottom, #7cff0a, rgb(0, 100, 5));
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
@@ -57,12 +58,17 @@ button{
     background-color: #5bc400;
     border: #5bc400;
 }
+/*fim do cabeçlho */
 main{
     min-width: 280px;
-    max-width: 800px;
 }
-main h1{
-    font-family: var(---fonte-android);}
+main h1, h2{
+    font-family: var(--fonte-android);
+}
+ul{
+    text-decoration: none;
+}
+
 footer{
     background-color: #5bc400;
     color: black;
